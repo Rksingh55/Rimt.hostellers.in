@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-info">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/img/logo2.png" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon bg-light"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Hostel Life</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#fees">Fees</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#facility">Facility</a>
+                    </li>
+              <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.rajshree.ac.in/">Campus Life</a>
+                    </li>
+
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+                    <button class="btn btn-outline-success" type="submit">Apply now</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid  form p-5 " id="contact">
+        <h1 class="hc" data-aos="zoom-out-down">--Contact Us--</h1><br>
+        <form class="row g-3" onesubmit="function sendEmail(); reset(); return false;">
+            <div class="col-md-4">
+              <label for="validationDefault01" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your first name" required>
+            </div>
+            <div class="col-md-4">
+              <label for="validationDefault02" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="col-md-4">
+                <label for="validationDefault02" class="form-label">Mobile No</label>
+                <input type="number" class="form-control" id="number"  placeholder="Enter your mobile no"  required>
+              </div>
+           
+            <div class="col-md-6">
+              <label for="validationDefault03" class="form-label">City</label>
+              <input type="text" class="form-control" id="city" placeholder="Enter your city" required>
+            </div>
+            <div class="col-md-6">
+                <label for="validationDefault04" class="form-label" id="state">Room Type</label>
+                <select class="form-select w-100" id="validationDefault04" required>
+                  <option selected disabled value="">Choose your room type</option>
+                 
+                  <option>AC-single</option>
+                  <option>AC-double</option>
+                  <option>Non-Ac-single</option>
+                  <option>Non-Ac-double</option>
+                  <option>Non-Ac-triple</option>
+                 
+              
+                  
+                </select>
+              </div> 
+            <div class="col-md-12 ">
+                <label for="validationDefault02" class="form-label">Quries</label>
+                <input type="text" class="form-control" id="validationDefault02" placeholder="Enter your quries" required>
+              </div>
+
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+          </form>
+      </div>
+
+    <div class="container-fluid footer">
+        <br>
+        <h2 class="hg" data-aos="zoom-in-down">--Get in Touch--</h2>
+        <br>
+        <div class="grid text-center" style="--bs-gap: 25rem 5rem;">
+            <div class="g-col-6 ">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                </ul>
+            </div>
+            <div class="g-col-6">
+                <ul>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+
+            <div class="g-col-6">
+                <ul>
+                    <li><a href="#">Hostel Life</a></li>
+                </ul>
+            </div>
+            <div class="g-col-6">
+                <ul>
+                    <li><a href="#">RIMT</a></li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <div class="container-fluid w-100">
+            <h3 class="hf2">@2022 | All right Reserved | Developed By <span>Rakesh Singh</span> </h3>
+            <script src="https://smtpjs.com/v3/smtp.js"></script>
+            <script>
+
+                function sendEmail(){
+                    Email.send({
+            Host : "smtp.gmail.com",
+            Username : "arnavsingh916153@gmail.com",
+            Password : "rksingh9621",
+            To : 'rakeshsingh9621671657@gmail.com',
+            From : document.getElementById("email").value,
+            Subject : "new contact form enquiry",
+            Body : "Name: " + document.getElementById("email").value
+            + "<br> Mobile number: " + document.getElementById("number").value
+            + "<br> city: " + document.getElementById("city").value
+        }).then(
+          message => alert("message sent succesfull")
+        );
+    }
+            </script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>

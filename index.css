@@ -1,9 +1,9 @@
-
-*{
+* {
     box-sizing: border-box;
 }
+
 .mainbody {
-    
+
     background-color: black;
 }
 
@@ -28,22 +28,37 @@ html {
     color: white;
 }
 
-.hostellife{
-    background-color: skyblue;
-    height: 150px;
+
+.rimt {
+    color: red;
+    text-shadow: 0 0 5px black;
 }
+
+.rimt1 {
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    text-shadow: 0 0 3px darkblue;
+}
+
 
 #about {
 
-    background-color:white;
+    background-color: white;
     color: black;
     padding: 30px;
 }
 
-.ab{
-    font-weight: bold;
-  
+.typewrite {
+    text-decoration: none;
+    font-family: "Sofia";
 }
+
+.ab {
+    font-weight: bold;
+
+}
+
 .img2 {
     float: left;
     width: 240px;
@@ -54,9 +69,10 @@ html {
 .text,
 .heading {
     text-align: justify;
-   
+
 }
-.heading{
+
+.heading {
     color: red;
     text-align: center;
     text-shadow: 0 0 3px black;
@@ -65,27 +81,30 @@ html {
 .event h2 {
     text-align: center;
 }
-.btn1{
-    background-color:orange;
+
+.btn1 {
+    background-color: orange;
     border-radius: 10px;
     border: 2px solid white;
     box-shadow: 0 0 7px black;
 }
-.btn1 a{
+
+.btn1 a {
     text-decoration: none;
     color: black;
 }
-.card{
+
+.card {
     box-shadow: 0 0 6px white;
 }
 
-.hm{
+.hm {
     text-align: center;
     color: red;
     text-shadow: 0 0 3px blue;
 }
 
-.hh{
+.hh {
     text-shadow: 0 0 3px blue;
     color: red;
 }
@@ -99,99 +118,120 @@ html {
     background-color: red;
     height: 200px;
 }
-.table-light th{
+
+.table-light th {
     background-color: black;
     color: white;
 }
+
 .div h2 {
     text-align: center;
 }
 
 
-.facility{
+.facility {
     /* height: 500px; */
     background-color: white;
 }
-.facility2{
+
+.facility2 {
     height: 100px;
     width: 100px;
 }
-.hc{
+
+.hc {
     text-align: center;
     color: red;
     text-shadow: 0 0 3px black;
 }
 
-.card1{
+.card1 {
     box-shadow: 0 0 6px blue;
 }
 
 
-.hc{
+.hc {
     color: red;
     text-align: center;
-    text-shadow: 0 0  3px black;
+    text-shadow: 0 0 3px black;
 }
-.headf{
+
+.headf {
     text-align: center;
     color: red;
     text-shadow: 0 0 5px black;
 }
-.form{
-    background-color:white;
+
+.form {
+    background-color: white;
     color: black;
 }
-.form-control{
+
+.form-control {
     box-shadow: 0 0 5px black;
     border: 2px solid black;
 }
-form label{
+
+form label {
     color: black;
-    
+
 }
 
-.footer{
-  
+.footer {
+
     background-color: rgb(47, 46, 46);
 }
-.footer ul li a{
+
+.footer ul li a {
     text-decoration: none;
     list-style: none;
 
 }
 
-.hg{
+.hg {
     text-align: center;
     color: red;
     text-shadow: 0 0 3px black;
 }
-option{
+
+option {
     background-color: skyblue;
     color: black;
 }
 
-.hf2{
+.hf2 {
     background-color: black;
     text-align: center;
-    color: white; 
+    color: white;
     font-size: 15px;
-  
+
 }
-span{
+
+span {
     color: red;
 }
-.faculty{
+
+.faculty {
     background-color: black;
-    
+
 }
-.lh{
+
+.lh {
     text-align: center;
     color: red;
     text-shadow: 0 0 2px white;
 }
 
-.hlg{
+.hlg {
     text-align: center;
     color: red;
     text-shadow: 0 0 3px black;
+}
+.address{
+
+    color: white;
+    text-align: center;
+}
+.bi{
+    color: red;
 }

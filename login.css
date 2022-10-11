@@ -1,0 +1,21 @@
+.login{
+    height: 450px;
+    background-color:black;
+   
+}
+
+.loginbtn a{
+    text-decoration: none;
+    color: white;
+}
+.loginp{
+    font-size: 20px;
+    color: white;
+
+}
+span{
+    font-weight: bold;
+}
+.btn{
+    box-shadow: 0 0 3px white;
+}

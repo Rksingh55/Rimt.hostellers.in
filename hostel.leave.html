@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apply</title>
+    <title>Hostel leave</title>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script src="bootstrap.bundle.js"></script>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
@@ -36,19 +37,23 @@
         </div>
     </nav>
     <div class="container-fluid  form p-5 " id="contact">
-        <h1 class="hc" data-aos="zoom-out-down">--Contact Us--</h1><br>
+        <h1 class="hc" data-aos="zoom-out-down">-Apply for hostel leave-</h1><br>
         <form class="row g-3" onesubmit="function sendEmail(); reset(); return false;" >
             <div class="col-md-4">
               <label for="validationDefault01" class="form-label">Name</label>
               <input type="text" class="form-control" id="name" placeholder="Enter your first name" required>
             </div>
             <div class="col-md-4">
-              <label for="validationDefault02" class="form-label">Email</label>
-              <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+              <label for="validationDefault02" class="form-label">Father Name</label>
+              <input type="text" class="form-control" id="email" placeholder="Enter your father name" required>
             </div>
             <div class="col-md-4">
                 <label for="validationDefault02" class="form-label">Mobile No</label>
                 <input type="number" class="form-control" id="number"  placeholder="Enter your mobile no"  required>
+              </div>
+              <div class="col-md-4">
+                <label for="validationDefault02" class="form-label">Parents Contact No</label>
+                <input type="number" class="form-control" id="number"  placeholder="Enter your parents contact no"  required>
               </div>
            
             <div class="col-md-6">
@@ -57,12 +62,13 @@
             </div>
         
             <div class="col-md-12 ">
-                <label for="validationDefault02" class="form-label">Quries</label>
-                <input type="text" class="form-control" id="validationDefault02" placeholder="Enter your quries" required>
+                <label for="validationDefault02" class="form-label">Reason For Leave</label>
+                <input type="text" class="form-control" id="validationDefault02" placeholder="Enter your reasons" required>
               </div>
 
             <div class="col-12">
               <button class="btn btn-primary" type="submit">Submit form</button>
+              <button class="btn  loginbtn btn-primary"><a href="loginpage.html">Back</a></button>
             </div>
           </form>
       </div>

@@ -247,3 +247,7 @@ span {
 .card-title h5{
     color: darkblue;
 }
+.foot{
+    overflow: hidden;
+    height: 20px;
+}

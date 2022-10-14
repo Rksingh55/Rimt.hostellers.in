@@ -1,0 +1,25 @@
+.desciption-container{
+    max-width: 1100px;
+    margin: 0px auto 20px;
+    ;
+}
+.desciption-container .floating-img{
+    max-width: 350px;
+
+}
+.desciption-container .floating-img.right
+{ 
+
+    float: right;
+    margin-left: 35px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 7px black;
+}
+.desciption-container .floating-img.left
+
+{ 
+    box-shadow: 0 0 7px black;
+    float: left;
+    margin-right: 35px;
+    margin-bottom: 10px;
+}
